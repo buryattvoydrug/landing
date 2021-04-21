@@ -5,15 +5,7 @@
   padding: 200px 0;
   .hero-head{
     width: 45%;
-    .hero__subtitle{
-      font-family: 'Neue Helvetica Medium';
-      color: $pastel;
-      font-size: 26px;
-    }
     .hero__title{
-      font-family: 'Neue Helvetica Bold';
-      color:$black;
-      font-size: 84px;
       margin: 56px 0 88px;
     }
   }
@@ -25,6 +17,52 @@
       border-radius: 12px;
       width: 100%;
       object-fit: cover;
+    }
+  }
+
+  //fonts
+  .hero__subtitle{
+    font-family: 'Neue Helvetica Medium';
+    color: $pastel;
+    font-size: 26px;
+  }
+  .hero__title{
+    font-family: 'Neue Helvetica Bold';
+    color:$black;
+    letter-spacing: -0.045em;
+    font-size: 84px;
+  }
+}
+@media (min-width:1280px) and (max-width:1500px){
+  .hero{
+    padding: 150px 0;
+    .hero-image{
+      height: 550px;
+    }
+    //fonts
+    .hero__subtitle{
+      font-size: 22px;
+    }
+    .hero__title{
+      font-size: 64px;
+    }
+  }
+}
+@media(max-width:1279px){
+  .hero{
+    height: 100vh;
+    .hero-head{
+      width: 100%;
+      .hero__title{
+        margin: 15px 0 100px;
+      }
+    }
+    //fonts
+    .hero__subtitle{
+      font-size: 18px;
+    }
+    .hero__title{
+      font-size: 48px;
     }
   }
 }

@@ -9,3 +9,16 @@
   padding: 20px 40px;
   border-radius:8px;
 }
+.header__button{
+  padding: 9px 18px;
+  font-size: 18px;
+  background: none;
+  border: 2px solid $primary;
+  color:$primary;
+}
+@media(max-width:1279px){
+  .button,.header__button{
+    padding: 20px 40px;
+    font-size: 18px;
+  }
+}

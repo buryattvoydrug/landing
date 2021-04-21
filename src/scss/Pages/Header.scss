@@ -1,0 +1,56 @@
+@import '../Conts';
+header{
+  width: 90%;
+  margin: 0 auto;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .logo{
+    z-index:2;
+    .logo__image{
+      height: 32px;
+    }
+  }
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+  }
+
+
+  //fonts
+  .logo__text{
+    font-family: 'Neue Helvetica Bold';
+    font-size: 32px;
+    color:$black;
+  }
+  .nav__item{
+    font-family: 'Neue Helvetica Bold';
+    font-size: 21px;
+    color:$pastel;
+  }
+}
+@media(max-width:1279px){
+  header{
+    //fonts
+    nav{
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 30vh 50px;
+      position: absolute;
+      top:0;
+      left:0;
+      height: 100vh;
+      background: red;
+      width: 100%;
+    }
+    .menu__button{
+      z-index: 2;
+    }
+    .nav__item{
+      font-size: 36px;
+    }
+  }
+}

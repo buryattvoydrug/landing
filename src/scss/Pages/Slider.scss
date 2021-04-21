@@ -2,9 +2,6 @@
 .slider{
   padding: 150px 0;
   .slider__title{
-    font-family: 'Neue Helvetica Bold';
-    font-size: 64px;
-    color:$black;
     width: 60%;
     text-align: center;
     margin: 0 auto;
@@ -16,29 +13,14 @@
       display: flex;
       .carousel__item{
         margin-right: 30px;
+        min-height: 440px;
         width: 425px;
         padding: 50px 40px 40px 45px;
         box-shadow: 10px 10px 50px 3px rgba(39, 92, 141, 0.1);
         border-radius: 12px;
         background: $white;
-        .carousel__item__title{
-          font-family: 'Neue Helvetica Medium';
-          font-size: 44px;
-          color:$black;
-        }
         .carousel__item__text{
-          font-family: 'Neue Helvetica Condensed';
-          font-size: 24px;
-          color:$black;
           margin: 38px 0;
-        }
-        .carousel__item__link{
-          font-family: 'Neue Helvetica Bold';
-          font-size: 21px;
-          opacity: 0.5;
-        }
-        .carousel__item__link:hover{
-          color:$primary;
         }
       }
     }
@@ -48,6 +30,95 @@
         height: 50px;
         background: none;
       }
+    }
+  }
+
+
+  //fonst
+  .slider__title{
+    font-family: 'Neue Helvetica Bold';
+    font-size: 64px;
+    color:$black;
+  }
+  .carousel__item__title{
+    font-family: 'Neue Helvetica Medium';
+    font-size: 44px;
+    color:$black;
+  }
+  .carousel__item__text{
+    font-family: 'Neue Helvetica Condensed';
+    font-size: 24px;
+    color:$black;
+  }
+  .carousel__item__link{
+    font-family: 'Neue Helvetica Bold';
+    font-size: 21px;
+    opacity: 0.5;
+  }
+}
+@media (min-width:1280px) and (max-width:1500px){
+.slider{
+  padding: 100px 0;
+  .slider__title{
+    font-size: 48px;
+    width: 50%;
+  }
+  .carousel-block{
+    .carousel{
+      padding-top: 80px;
+      .carousel__item{
+        min-height: 370px;
+        width: 380px;
+      }
+    }
+  }
+
+
+
+  //fonts
+  .carousel__item__title{
+    font-size: 36px;
+  }
+  .carousel__item__text{
+    font-size: 20px;
+  }
+  .carousel__item__link{
+    font-size: 18px;
+  }
+}
+}
+@media(max-width:1279px){
+  .slider{
+    padding: 100px 0;
+    .slider__title{
+      width: 90%;
+    }
+    .carousel-block{
+      .carousel{
+        padding: 50px 0;
+        .carousel__item{
+          padding: 40px 25px;
+          min-height: 320px;
+          width: 260px;
+          .carousel__item__text{
+            margin: 20px 0 25px;
+          }
+        }
+      }
+    }
+
+    //fonts
+    .slider__title{
+      font-size: 36px;
+    }
+    .carousel__item__title{
+      font-size: 26px;
+    }
+    .carousel__item__text{
+      font-size: 16px;
+    }
+    .carousel__item__link{
+      font-size: 14px;
     }
   }
 }

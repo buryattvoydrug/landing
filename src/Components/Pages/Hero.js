@@ -1,4 +1,5 @@
 import React from 'react'
+import {isMobile} from 'react-device-detect'
 
 import '../../scss/Pages/Hero.scss'
 import Button from '../Button'
@@ -13,9 +14,11 @@ function Hero() {
             <h1 className="hero__title">Convallis turpis erat tempus, viverra aliquet.</h1>
             <Button/>
           </div>
+          {isMobile? null :
           <div className="hero-image">
             <img className="hero__image" src="/images/image2.jpg" alt=""/>
           </div>
+          }
       </section>
     </div>
     </>

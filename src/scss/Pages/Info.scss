@@ -2,13 +2,9 @@
 .info{
   padding: 100px 0;
   .info__title{
-    font-family: 'Neue Helvetica Bold';
-    font-size: 64px;
     width: 60%;
   }
   .info__text{
-    font-family: 'Neue Helvetica Condensed';
-    font-size: 28px;
     width: 60%;
     margin: 42px 0 64px;
   }
@@ -18,22 +14,94 @@
     flex-direction: column;
     flex-wrap: wrap;
     .info__item{
-      width: 50%;
+      width: 45%;
       display: flex;
       align-items: start;
-      margin: 0 70px 40px 0;
+      margin: 0 0 40px 0;
       .info__item__block{
         margin-left: 30px;
         .item__title{
-          font-family: 'Neue Helvetica Bold';
-          font-size: 30px;
           margin-bottom: 10px;
         }
-        .item__text{
-          font-family: 'Neue Helvetica Condensed';
-          font-size: 24px;
+      }
+    }
+  }
+
+
+  //fonts
+  .info__title{
+    font-family: 'Neue Helvetica Bold';
+    font-size: 64px;
+  }
+  .info__text{
+    font-family: 'Neue Helvetica Condensed';
+    font-size: 28px;
+  }
+  .item__title{
+    font-family: 'Neue Helvetica Bold';
+    font-size: 30px;
+  }
+  .item__text{
+    font-family: 'Neue Helvetica Condensed';
+    font-size: 24px;
+  }
+}
+@media (min-width:1280px) and (max-width:1500px){
+  .info{
+    .info__title{
+      font-size: 55px;
+    }
+    .info__text{
+      font-size: 24px;
+    }
+    .item__title{
+      font-size: 24px;
+    }
+    .item__text{
+      font-size: 20px;
+    }
+  }
+}
+@media(max-width:1279px){
+  .info{
+    padding: 70px 0;
+    .info__title{
+      width: 90%;
+    }
+    .info__text{
+      width: 90%;
+      margin: 25px 0 60px;
+    }
+    .info-block{
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      .info__item{
+        width: 97%;
+        margin: 0 0 30px 0;
+        .info__item__icon{
+          width: 30px;
+        }
+        .info__item__block{
+          margin-left: 25px;
         }
       }
+    }
+
+
+    //fonts
+    .info__title{
+      font-size: 36px;
+    }
+    .info__text{
+      font-size: 14px;
+    }
+    .item__title{
+      font-size: 22px;
+    }
+    .item__text{
+      font-size: 18px;
     }
   }
 }

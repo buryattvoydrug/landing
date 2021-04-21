@@ -2,11 +2,9 @@ import React from 'react'
 
 import '../scss/Button.scss'
 
-function Button() {
+function Button({type}) {
   return (
-    <>
-      <button className="button">Get In Touch</button>
-    </>
+    <button className={type? type+"__button" + " button" : "button"}>Get In Touch</button>
   )
 }
 

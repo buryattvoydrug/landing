@@ -15,10 +15,21 @@ a:visited{
 }
 button{
   border:none;
+  background: none;
 }
 button:active, button:focus {
   outline: none;
 }
 button::-moz-focus-inner {
   border: 0;
+}
+@media (min-width:1280px) and (max-width:1500px){
+  .container{
+    width: 1200px;
+  }
+}
+@media(max-width:1279px){
+  .container{
+    width: 90vw;
+  }
 }
