@@ -1,0 +1,32 @@
+@import './../Conts';
+.image-info{
+  display: flex;
+  justify-content: space-between;
+  padding: 200px 0;
+  align-items: center;
+  .image-info-head{
+    width: 45%;
+    .image-info__title{
+      font-family: 'Neue Helvetica Bold';
+      color:$black;
+      font-size: 52px;
+      margin-bottom: 44px;
+    }
+    .image-info__text{
+      font-family: 'Neue Helvetica Condensed';
+      color:$black;
+      font-size: 28px;
+      width: 95%;
+    }
+  }
+  .image-info-image{
+    height: 650px;
+    width: 45%;
+    .image-info__image{
+      max-height: 100%;
+      border-radius: 12px;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+}

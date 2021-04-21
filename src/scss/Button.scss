@@ -1,0 +1,11 @@
+@import './Conts';
+@import './Fonts';
+.button{
+  font-family: 'Neue Helvetica Bold';
+  font-size: 30px;
+  color:$white;
+  background: none;
+  background: $primary;
+  padding: 20px 40px;
+  border-radius:8px;
+}

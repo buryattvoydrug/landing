@@ -1,0 +1,30 @@
+@import './../Conts';
+.hero{
+  display: flex;
+  justify-content: space-between;
+  padding: 200px 0;
+  .hero-head{
+    width: 45%;
+    .hero__subtitle{
+      font-family: 'Neue Helvetica Medium';
+      color: $pastel;
+      font-size: 26px;
+    }
+    .hero__title{
+      font-family: 'Neue Helvetica Bold';
+      color:$black;
+      font-size: 84px;
+      margin: 56px 0 88px;
+    }
+  }
+  .hero-image{
+    height: 650px;
+    width: 45%;
+    .hero__image{
+      max-height: 100%;
+      border-radius: 12px;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+}

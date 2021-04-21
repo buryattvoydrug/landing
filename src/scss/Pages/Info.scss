@@ -1,0 +1,39 @@
+@import '../Conts';
+.info{
+  padding: 100px 0;
+  .info__title{
+    font-family: 'Neue Helvetica Bold';
+    font-size: 64px;
+    width: 60%;
+  }
+  .info__text{
+    font-family: 'Neue Helvetica Condensed';
+    font-size: 28px;
+    width: 60%;
+    margin: 42px 0 64px;
+  }
+  .info-block{
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    .info__item{
+      width: 50%;
+      display: flex;
+      align-items: start;
+      margin: 0 70px 40px 0;
+      .info__item__block{
+        margin-left: 30px;
+        .item__title{
+          font-family: 'Neue Helvetica Bold';
+          font-size: 30px;
+          margin-bottom: 10px;
+        }
+        .item__text{
+          font-family: 'Neue Helvetica Condensed';
+          font-size: 24px;
+        }
+      }
+    }
+  }
+}
