@@ -1,0 +1,141 @@
+@import '../Conts';
+.images{
+  margin: 200px 0;
+  //fonts
+  .images__title{
+    font-family: 'Neue Helvetica Bold';
+    color:$black;
+    font-size: 52px;
+  }
+  .images__text{
+    font-family: 'Neue Helvetica Condensed';
+    color:$black;
+    font-size: 28px;
+  }
+}
+.images1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .images-head{
+    width: 50%;
+    .images__text{
+      margin: 50px 0 60px;
+    }
+  }
+  .images__image{
+    width: 100%;
+    border-radius: 12px;
+    max-height:60vh;
+    object-fit: cover;
+  }
+}
+.images2{
+  display: flex;
+  flex-direction: column;
+  max-height:100vh;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  .images-head{
+    width: 50%;
+    .images__text{
+      margin: 50px 0 60px;
+    }
+  }
+  .images__image{
+    width: 50%;
+    border-radius: 12px;
+    max-height:60vh;
+    object-fit: cover;
+  }
+  .tall__image{
+    max-height: 100%;
+    width: 40%;
+  }
+}
+.images2_reverse{
+  .tall__image{
+    order:-1;
+  }
+}
+.images3{
+  display: flex;
+  justify-content: space-between;
+  .images-block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    .images-head{
+      padding: 40px 10% 0 0;
+    }
+  }
+  .images__image{
+    border-radius:12px;
+    object-fit: cover;
+  }
+  .first__image{
+    width: 55%;
+    height: 35vh;
+  }
+  .second__image{
+    width: 40%;
+  }
+  .tall__image{
+    padding-top: 100px;
+    width: 35%;
+  }
+}
+@media (min-width:1280px) and (max-width:1439px){
+  .images2{
+    max-height:120vh;
+  }
+}
+@media(max-width:1279px){
+  .images{
+    margin: 100px 0;
+    //fonts
+    .images__title{
+      font-size: 30px;
+    }
+    .images__text{
+      font-size: 14px;
+    }
+  }
+  .images1{
+    .images-head{
+      width: 90%;
+      .images__text{
+        margin: 25px 0 40px;
+      }
+    }
+  }
+  .images2{
+    width: 200%;
+    align-items: flex-start;
+    .images-head{
+      width: 45%;
+      .images__text{
+        margin: 25px 0 40px;
+      }
+    }
+    .tall__image{
+      height: 70vh;
+    }
+  }
+  .images3{
+    width: 200%;
+    .images-block{
+      .images-head{
+        width: 90%;
+        .images__text{
+          margin: 25px 0 40px;
+        }
+      }
+    }
+    .second__image{
+      height: 45vh;
+    }
+  }
+}

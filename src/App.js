@@ -3,7 +3,9 @@ import Footer from "./Components/Pages/Footer";
 import Header from "./Components/Pages/Header";
 import Hero from "./Components/Pages/Hero";
 import ImageInfo from "./Components/Pages/ImageInfo";
-import Images from "./Components/Pages/Images";
+import Images1 from "./Components/Pages/ImagesBlock/Images1";
+import Images2 from "./Components/Pages/ImagesBlock/Images2";
+import Images3 from "./Components/Pages/ImagesBlock/Images3";
 import Info from "./Components/Pages/Info";
 import Slider from "./Components/Pages/Slider";
 import Team from "./Components/Pages/Team";
@@ -18,7 +20,10 @@ function App() {
       <Slider/>
       <Info/>
       <ImageInfo/>
-      <Images/>
+      <Images1/>
+      <Images2/>
+      <Images3/>
+
       <Team/>
       <CTA/>
       <Footer/>

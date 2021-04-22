@@ -1,0 +1,52 @@
+@import '../Conts';
+.cta{
+  margin: 100px 0;
+  background: $pastel;
+  background-image: url('../../images/vector.svg');
+  background-repeat: no-repeat;
+  background-position: right top;
+  border-radius: 12px;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  .cta-block{
+    max-width: 60%;
+    .cta__text{
+      margin-top: 20px;
+    }
+  }
+  //fonts
+  .cta__title{
+    font-family: 'Neue Helvetica Medium';
+    color:$black;
+    font-size: 44px;
+  }
+  .cta__text{
+    font-family: 'Neue Helvetica Condensed';
+    color:$black;
+    font-size: 24px;
+  }
+}
+@media(max-width:1279px){
+  .cta{
+    padding: 20% 12%;
+    height: 70vh;
+    flex-direction: column;
+    background-position: top 60% right;
+    .cta-block{
+      max-width: 100%;
+      .cta__text{
+        margin-top: 10px;
+      }
+    }
+
+    //fonts
+    .cta__title{
+      font-size: 28px;
+    }
+    .cta__text{
+      font-size: 14px;
+    }
+  }
+}
