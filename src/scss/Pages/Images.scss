@@ -112,16 +112,21 @@
     }
   }
   .images2{
-    width: 200%;
+    width: 180%;
     align-items: flex-start;
     .images-head{
-      width: 45%;
+      width: 40%;
+      
       .images__text{
         margin: 25px 0 40px;
       }
     }
+    .images__image {
+      width: 40%;
+    }
     .tall__image{
-      height: 70vh;
+      height: 60vh;
+      width: 50%;
     }
   }
   .images3{

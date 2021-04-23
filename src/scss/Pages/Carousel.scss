@@ -1,0 +1,39 @@
+.slider{
+  .left-arrow{
+    position: absolute;
+    bottom:-40px;
+    left:50px;
+  }
+  .right-arrow{
+    position: absolute;
+    bottom:-40px;
+    left:100px;
+  }
+  .rec-item-wrapper{
+    width: 465px !important;
+  }
+  .rec-item-wrapper{
+    padding: 120px 20px 40px !important;
+  }
+}
+@media (min-width:1280px) and (max-width:1500px){
+  .slider{
+    .rec-item-wrapper{
+      padding: 20px 20px 40px !important;
+    }
+  }
+}
+@media(max-width:1279px){
+  .slider{
+    .rec-item-wrapper{
+      padding-top: 60px !important;
+      width: 100vw !important;
+    }
+    .carousel{
+      width: 100vw !important;
+    }
+    .imakzv{
+      margin: 0 !important;
+    }
+  }
+}

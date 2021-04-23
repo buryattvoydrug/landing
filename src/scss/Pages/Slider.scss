@@ -7,16 +7,18 @@
     margin: 0 auto;
   }
   .carousel-block{
+    padding-bottom: 600px;
     .carousel{
-      padding: 120px 0 40px;
-      width: 4000px;
+      width: 100vw;
+      position: absolute;
+      left:0;
       display: flex;
       .carousel__item{
-        margin-right: 30px;
+        margin-right: 20px;
         min-height: 440px;
         width: 425px;
         padding: 50px 40px 40px 45px;
-        box-shadow: 10px 10px 50px 3px rgba(39, 92, 141, 0.1);
+        box-shadow: 10px 10px 20px 3px rgba(39, 92, 141, 0.1);
         border-radius: 12px;
         background: $white;
         .carousel__item__text{
@@ -94,12 +96,14 @@
       width: 90%;
     }
     .carousel-block{
+      padding-bottom: 500px;
       .carousel{
-        padding: 50px 0;
+        padding: 0 0 50px 0;
         .carousel__item{
-          padding: 40px 25px;
+          padding:  40px 25px;
           min-height: 320px;
-          width: 260px;
+          width: 100%;
+          margin: 0;
           .carousel__item__text{
             margin: 20px 0 25px;
           }

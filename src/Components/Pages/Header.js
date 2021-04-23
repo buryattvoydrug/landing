@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 import Button from '../Button'
-
-import '../../scss/Pages/Header.scss'
 import Nav from '../Nav'
 import { isMobile } from 'react-device-detect'
+
+import '../../scss/Pages/Header.scss'
 
 function Header({menu}) {
   
