@@ -9,6 +9,13 @@
     bottom:-40px;
     left:100px;
   }
+  .arrow{
+    transition: all .6s;
+    cursor: pointer;
+  }
+  .arrow:hover img{
+    filter:contrast(0);
+  }
   .rec-item-wrapper{
     width: 465px !important;
   }

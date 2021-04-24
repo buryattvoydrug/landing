@@ -6,8 +6,15 @@
   color:$white;
   background: none;
   background: $primary;
-  padding: 20px 40px;
+  padding: 15px 35px;
+  border: 5px solid $primary;
+  transition: all .7s;
   border-radius:8px;
+}
+.button:hover{
+  background: $white;
+  border: 5px solid $primary;
+  color:$primary;
 }
 .header__button{
   padding: 9px 18px;
@@ -15,6 +22,11 @@
   background: none;
   border: 2px solid $primary;
   color:$primary;
+}
+.header__button:hover{
+  background: $primary;
+  border: 2px solid $primary;
+  color:$white;
 }
 @media(max-width:1279px){
   .button,.header__button{

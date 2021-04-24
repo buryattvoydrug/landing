@@ -23,7 +23,7 @@ class Slider extends React.Component{
         <div className="slider">
           <h2 className="slider__title"><Fade top cascade>The best design for your studio website</Fade></h2>
           <div className="carousel-block">
-            <Carousel className="carousel" renderArrow={this.myArrow} itemsToShow={isMobile? 1 : 4} pagination={false}>
+            <Carousel className="carousel" renderArrow={this.myArrow} itemsToShow={isMobile? 1 : 3} pagination={false}>
               <div className="carousel__item">
                 <h4 className="carousel__item__title">Name</h4>
                 <div className="carousel__item__text">

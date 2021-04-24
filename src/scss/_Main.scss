@@ -1,3 +1,4 @@
+@import './Conts';
 *{
   box-sizing: border-box;
   margin: 0;
@@ -16,6 +17,12 @@ body
   max-width: 100%;
   overflow-x: hidden;
 }
+::selection {
+  background: $pastel;
+  }
+  ::-moz-selection {
+  background: $pastel;
+  }
 a,
 a:active,
 a:visited{
@@ -30,6 +37,10 @@ button{
   border:none;
   background: none;
 }
+.button,.nav__item{
+  cursor: pointer;
+}
+
 button:active, button:focus {
   outline: none;
 }

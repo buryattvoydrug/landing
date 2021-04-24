@@ -7,7 +7,7 @@ header{
   justify-content: space-between;
   align-items: center;
   .logo{
-    z-index:2;
+    z-index:3;
     .logo__image{
       height: 32px;
     }
@@ -30,27 +30,38 @@ header{
     font-family: 'Neue Helvetica Bold';
     font-size: 21px;
     color:$pastel;
+    transition: all .5s;
+  }
+  .nav__item:hover{
+    color:$black;
   }
 }
 @media(max-width:1279px){
   header{
     //fonts
     nav{
+      z-index: 2;
       flex-direction: column;
       align-items: flex-start;
-      padding: 30vh 50px;
+      padding: 27vh 50px;
       position: absolute;
       top:0;
       left:0;
       height: 100vh;
-      background: red;
+      background: $white;
       width: 100%;
     }
     .menu__button{
-      z-index: 2;
+      z-index: 3;
+      position: absolute;
+      right:40px;
     }
     .nav__item{
+      color:$black;
       font-size: 36px;
+    }
+    .header__button {
+      margin-top: 15px;
     }
   }
 }
