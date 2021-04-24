@@ -1,0 +1,27 @@
+{
+  "items":[
+    {
+      "id":1,
+      "title":"The best design for your studio website",
+      "text":"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    {
+      "id":2,
+      "title":"Design concept",
+      "text":"Vitae nulla nunc euismod vel nunc euismod velpretium tellus accumsan nulla nunc euismod ve semper.",
+      "image":"/images/icon1.png"
+    },
+    {
+      "id":3,
+      "title":"Developing websites",
+      "text":"Vitae nulla nunc euismod vel nunc euismod velpretium tellus accumsan nulla nunc euismod ve semper.",
+      "image":"/images/icon2.png"
+    },
+    {
+      "id":4,
+      "title":"Developing websites",
+      "text":"Vitae nulla euismod velpretium tellus accumsan nulla nunc euismod ve semper. Vitae nulla euismod velpretium tellus accumsan nulla nunc euismod ve semper. Vitae nulla euismod velpretium tellus accumsan nulla nunc euismod ve semper.",
+      "image":"/images/icon2.png"
+    }
+  ]
+}

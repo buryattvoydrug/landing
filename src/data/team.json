@@ -1,0 +1,28 @@
+{
+  "items":[
+    {
+      "id":1,
+      "name":"Name 1",
+      "image":"/images/team1.jpg",
+      "subtitle":"ultricies lacus sed"
+    },
+    {
+      "id":2,
+      "name":"Name 2",
+      "image":"/images/team2.jpg",
+      "subtitle":"odio euismod lacinia"
+    },
+    {
+      "id":3,
+      "name":"Name 3",
+      "image":"/images/team3.jpg",
+      "subtitle":"nunc sed augue"
+    },
+    {
+      "id":4,
+      "name":"Name 4",
+      "image":"/images/team4.jpg",
+      "subtitle":"amet justo donec"
+    }
+  ]
+}

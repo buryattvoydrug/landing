@@ -3,9 +3,20 @@ import Carousel from 'react-elastic-carousel'
 import { isMobile } from 'react-device-detect'
 import Fade from 'react-reveal/Fade';
 
+import team from '../../data/team.json'
+
 import '../../scss/Pages/Team.scss'
 
 function Team() {
+
+  const teamItems = team.items.map((n,i)=>(
+    <div className="team__item" key={i}>
+              <img src={team.items[i].image} alt="" className="team__image"/>
+              <h4 className="team__name">{team.items[i].name}</h4>
+              <h5 className="team__titul">{team.items[i].subtitle}</h5>
+            </div>
+  ))
+
   return (
     <>
       <div className="container">
@@ -20,51 +31,14 @@ function Team() {
           </div>
           {isMobile?
           <Carousel enableAutoPlay showArrows={false} autoPlaySpeed={2500} itemsToShow={1} pagination={false} className="team-block">
-            <div className="team__item">
-              <img src="/images/team1.jpg" alt="" className="team__image"/>
-              <h4 className="team__name">Andry Ford</h4>
-              <h5 className="team__titul">CEO at Whatever</h5>
-            </div>
-            <div className="team__item">
-              <img src="/images/team1.jpg" alt="" className="team__image"/>
-              <h4 className="team__name">Andry Ford</h4>
-              <h5 className="team__titul">CEO at Whatever</h5>
-            </div>
-            <div className="team__item">
-              <img src="/images/team1.jpg" alt="" className="team__image"/>
-              <h4 className="team__name">Andry Ford</h4>
-              <h5 className="team__titul">CEO at Whatever</h5>
-            </div>
-            <div className="team__item">
-              <img src="/images/team1.jpg" alt="" className="team__image"/>
-              <h4 className="team__name">Andry Ford</h4>
-              <h5 className="team__titul">CEO at Whatever</h5>
-            </div>
+            
+            {teamItems}
           </Carousel>
           : 
           <>
           <Fade right cascade>
           <div className="team-block">
-            <div className="team__item">
-              <img src="/images/team1.jpg" alt="" className="team__image"/>
-              <h4 className="team__name">Andry Ford</h4>
-              <h5 className="team__titul">CEO at Whatever</h5>
-            </div>
-            <div className="team__item">
-              <img src="/images/team1.jpg" alt="" className="team__image"/>
-              <h4 className="team__name">Andry Ford</h4>
-              <h5 className="team__titul">CEO at Whatever</h5>
-            </div>
-            <div className="team__item">
-              <img src="/images/team1.jpg" alt="" className="team__image"/>
-              <h4 className="team__name">Andry Ford</h4>
-              <h5 className="team__titul">CEO at Whatever</h5>
-            </div>
-            <div className="team__item">
-              <img src="/images/team1.jpg" alt="" className="team__image"/>
-              <h4 className="team__name">Andry Ford</h4>
-              <h5 className="team__titul">CEO at Whatever</h5>
-            </div>
+            {teamItems}
           </div>
           </Fade>
           </>}
