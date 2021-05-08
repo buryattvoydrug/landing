@@ -11,8 +11,8 @@ import '../../scss/Pages/Carousel.scss'
 
 class Slider extends React.Component{
   myArrow({ type, onClick, isEdge }) {
-    const pointer = type === consts.PREV ? <img src="/images/arrow-left.svg" alt=""/> :
-    <img src="/images/arrow-right.svg" alt=""/>
+    const pointer = type === consts.PREV ? <img src="images/arrow-left.svg" alt=""/> :
+    <img src="images/arrow-right.svg" alt=""/>
     const pointerClass = type === consts.PREV ? 'left': 'right'
     return (
       <button onClick={onClick} disabled={isEdge} className={pointerClass+"-arrow arrow"}>

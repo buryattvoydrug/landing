@@ -9,7 +9,7 @@ function Header({menu}) {
     <>
       <header>
         <div className="logo">
-          <img src="/images/logo.png" alt="" className="logo__image"/>
+          <img src="images/logo.png" alt="" className="logo__image"/>
           <span className="logo__text">ogo</span>
         </div>
         {menu==='no'?

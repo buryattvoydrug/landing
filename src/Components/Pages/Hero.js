@@ -2,6 +2,8 @@ import React from 'react'
 import {isMobile} from 'react-device-detect'
 import Fade from 'react-reveal/Fade';
 
+
+
 import '../../scss/Pages/Hero.scss'
 import Button from '../Button'
 
@@ -20,7 +22,7 @@ class Hero extends React.Component {
           {isMobile? null :
           <Fade>
             <div className="hero-image">
-              <img className="hero__image" src="/images/image2.jpg" alt=""/>
+              <img className="hero__image" src="images/image2.jpg" alt=""/>
             </div>
           </Fade>
           }

@@ -17,7 +17,7 @@ function ImageInfo() {
           </Fade>
           <Fade right>
           <div className="image-info-image">
-              <img src="/images/image1.jpg" alt="" className="image-info__image"/>
+              <img src="images/image1.jpg" alt="" className="image-info__image"/>
           </div>
           </Fade>
         </section>

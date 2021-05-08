@@ -12,16 +12,16 @@ import '../scss/Pages/Header.scss'
 class Nav extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { show: false, active:false, buttonSrc: "/images/open.png" };
+    this.state = { show: false, active:false, buttonSrc: "images/open.png" };
     this.toggleMenu = this.toggleMenu.bind(this);
     this.closeMenu = this.closeMenu.bind(this);
   }
   toggleMenu(){
     this.setState({ show: !this.state.show });
-    if(this.state.buttonSrc==="/images/close.png"){
-      this.setState({ buttonSrc: "/images/open.png" });
+    if(this.state.buttonSrc==="images/close.png"){
+      this.setState({ buttonSrc: "images/open.png" });
     }else{
-      this.setState({ buttonSrc: "/images/close.png" });
+      this.setState({ buttonSrc: "images/close.png" });
     }
     if (document.body.style.overflowY !== "hidden") {
       document.body.style.overflowY = "hidden";
@@ -31,7 +31,7 @@ class Nav extends React.Component {
   }
   closeMenu(){
     this.setState({ show: false });
-    this.setState({ buttonSrc: "/images/open.png" });
+    this.setState({ buttonSrc: "images/open.png" });
     document.body.style.overflowY = "scroll";
   }
   render(){
