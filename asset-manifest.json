@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/landing/static/css/main.883dd3e0.chunk.css",
+    "main.js": "/landing/static/js/main.6b13b66f.chunk.js",
+    "main.js.map": "/landing/static/js/main.6b13b66f.chunk.js.map",
+    "runtime-main.js": "/landing/static/js/runtime-main.5532db86.js",
+    "runtime-main.js.map": "/landing/static/js/runtime-main.5532db86.js.map",
+    "static/js/2.c4490375.chunk.js": "/landing/static/js/2.c4490375.chunk.js",
+    "static/js/2.c4490375.chunk.js.map": "/landing/static/js/2.c4490375.chunk.js.map",
+    "index.html": "/landing/index.html",
+    "static/css/main.883dd3e0.chunk.css.map": "/landing/static/css/main.883dd3e0.chunk.css.map",
+    "static/js/2.c4490375.chunk.js.LICENSE.txt": "/landing/static/js/2.c4490375.chunk.js.LICENSE.txt",
+    "static/media/Button.scss": "/landing/static/media/Helvetica Neue LT 75 Bold.a0b08f8d.woff",
+    "static/media/CTA.scss": "/landing/static/media/vector.562f34e5.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5532db86.js",
+    "static/js/2.c4490375.chunk.js",
+    "static/css/main.883dd3e0.chunk.css",
+    "static/js/main.6b13b66f.chunk.js"
+  ]
+}
