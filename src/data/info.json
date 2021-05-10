@@ -9,19 +9,19 @@
       "id":2,
       "title":"Design concept",
       "text":"Vitae nulla nunc euismod vel nunc euismod velpretium tellus accumsan nulla nunc euismod ve semper.",
-      "image":"/images/icon1.png"
+      "image":"images/icon1.png"
     },
     {
       "id":3,
       "title":"Developing websites",
       "text":"Vitae nulla nunc euismod vel nunc euismod velpretium tellus accumsan nulla nunc euismod ve semper.",
-      "image":"/images/icon2.png"
+      "image":"images/icon2.png"
     },
     {
       "id":4,
       "title":"Developing websites",
       "text":"Vitae nulla euismod velpretium tellus accumsan nulla nunc euismod ve semper. Vitae nulla euismod velpretium tellus accumsan nulla nunc euismod ve semper. Vitae nulla euismod velpretium tellus accumsan nulla nunc euismod ve semper.",
-      "image":"/images/icon2.png"
+      "image":"images/icon2.png"
     }
   ]
 }
